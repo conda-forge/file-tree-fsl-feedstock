@@ -1,5 +1,5 @@
 {% set name = "file-tree-fsl" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/file-tree-fsl-{{ version }}.tar.gz
-  sha256: 29a057f6a34fe2ec61e66756f34c4a8cbd068a9095b81fe03634cf44188bd247
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/file-tree-fsl-{{ version }}.tar.gz
+  sha256: 9294e89d67c1bcf3674230d5e400316d76f92cdb7d73112fd4bca55675ecff53
 
 build:
   number: 0
